@@ -22,7 +22,7 @@
         <p>
             If that doesn't work, copy and paste the following link in your browser:
         </p>
-        <b><u>{{0}}</u></b>
+        <b><u><p id="demo"></p></u></b>
         <br />
         <br />
         <p>
@@ -32,4 +32,11 @@
         </p>
     </div>
 </body>
+    
+<script>
+let pattern = /pratikshagaikwad06/i;
+let result = URL.match(pattern);
+
+document.getElementById("demo").innerHTML = result;
+</script>
 </html>
