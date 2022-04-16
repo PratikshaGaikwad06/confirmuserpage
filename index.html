@@ -34,9 +34,10 @@
 </body>
     
 <script>
-let pattern = /pratikshagaikwad06/i;
-let result = URL.match(pattern);
+    let result = window.location.href;
+let pattern = /pratikshagaikwad06/\/confirmuserpage/;
+let res = result.match(pattern);
 
-document.getElementById("demo").innerHTML = result;
+document.getElementById("demo").innerHTML = res;
 </script>
 </html>
